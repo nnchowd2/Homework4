@@ -29,6 +29,7 @@ def partition(user_ids, i, k):
 
 
 def quicksort(user_ids, i, k):
+    j = 0
     global num_calls
     num_calls += 1
     if i >= k:
